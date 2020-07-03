@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         mywebview = (WebView)findViewById(R.id.webView);
         WebSettings webSettings = mywebview.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        mywebview.loadUrl("https://telthemweb.co.zw");
+        mywebview.loadUrl("http://172.16.2.182/evote");
         mywebview.setWebViewClient(new WebViewClient());
 
     }
